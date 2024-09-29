@@ -11,6 +11,17 @@
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <style>
+      img{
+        width: 100px;
+        height: auto;
+      }
+      .thumbnail{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+    </style>
 </head>
 <body>
     <header>
@@ -40,8 +51,39 @@
             <div class="col-md">Italian Tiramisu</div>
         </div>
     </div>
-    <br><p>The website uses a grid system to arrange content into rows and columns.
+    <br>
+    <p>The website uses a grid system to arrange content into rows and columns.
         The letters are in smaller columns, so they stack first on small screens. The desserts are in larger columns, so they stay in one row until the screen gets bigger.
-       </p>
+    </p>
+    <div class="container">
+      <h2>Dessert images</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src = "Ice Cream.jpg" alt = "Ice Cream" class = "img-fluid" style="width: 90%; height: auto;">
+        </div>
+        <div class="col-md-4">
+          <img src="Donut.jpeg" alt = "Donut" class="img-fluid" style="width: 90%; height: auto;">
+        </div>
+        <div class="col-md-4">
+          <img src="Italian Tiramisu.jpg" alt = "Italian Tiramisu" class="img-fluid" style= "width: 90%; height:auto;">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Thumbnail Images</h2>
+      <div class = "row">
+        <div class="col-md-4">
+          <img src="Ice Cream.jpg" alt="Ice Cream" class="thumbnail" style="width: 90%; height: auto;">
+        </div>
+        <div class="col-md-4">
+          <img src="Donut.jpeg" alt = "Donut" class="thumbnail" style="width: 90%; height: auto;">
+        </div>
+        <div class="col-md-4">
+          <img src="Italian Tiramisu.jpg" alt = "Italian Tiramisu" class="thumbnail" style="width: 90%; height: auto;">
+        </div>
+      </div>
+    </div>
+      <h2></h2>
+    </div>
 </body>
 </html>
