@@ -24,6 +24,22 @@
     </style>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">Dessert Options</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="basic.html">Basic</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="advanced.html">Advanced</a>
+          </li>
+      </ul>
+  </div>
+  </nav>
     <header>
         <h1>After dinner hosted by Sathyanarayana Mallipudi</h1>
     </header>
@@ -148,6 +164,16 @@
             <button type="button" class="btn btn-danger">M</button>
           </div>
         </div>
+      </div>
+      <br>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          Select a Dessert
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+        </ul>
       </div>
 </body>
 </html>
